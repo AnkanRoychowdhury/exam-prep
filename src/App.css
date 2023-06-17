@@ -96,3 +96,24 @@ body {
     padding: 6px 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .popup {
+    width: 60%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .popup {
+    padding: 10px;
+  }
+
+  .popup h2 {
+    font-size: 20px;
+  }
+
+  .popup p {
+    font-size: 16px;
+  }
+}
