@@ -680,7 +680,7 @@ const App = () => {
     let totalScore = 0;
     for (const question of questions) {
       if (selectedOptions[question.id] === question.answer) {
-        totalScore += 5;
+        totalScore += 1;
       }
     }
     setScore(totalScore);
@@ -727,7 +727,7 @@ const App = () => {
       {showPopup && (
         <div className="popup">
           <p className="popup-content">
-            Your score: {score} out of {questions.length * 5}
+            Your score: {score} out of {questions.length * 1}
           </p>
         </div>
       )}
