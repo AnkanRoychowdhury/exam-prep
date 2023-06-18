@@ -667,6 +667,7 @@ const App = () => {
   const [selectedOptions, setSelectedOptions] = useState({});
   const [score, setScore] = useState(0);
   const [showPopup, setShowPopup] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleOptionChange = (questionId, option) => {
     setSelectedOptions((prevOptions) => ({
@@ -685,6 +686,7 @@ const App = () => {
     }
     setScore(totalScore);
     setShowPopup(true);
+    setSubmitted(true);
   };
 
   useEffect(() => {
@@ -706,16 +708,19 @@ const App = () => {
             <p className="question-text">{question.text}</p>
             <div className="options">
               {question.options.map((option) => (
-                <label key={option} className="option">
-                  <input
-                    type="radio"
-                    name={`question-${question.id}`}
-                    value={option}
-                    checked={selectedOptions[question.id] === option}
-                    onChange={() => handleOptionChange(question.id, option)}
-                  />
-                  {option}
-                </label>
+                <label
+                key={option}
+                className={`option ${submitted && selectedOptions[question.id] === option && question.answer !== option ? 'wrong-answer' : ''}`}
+              >
+                <input
+                  type="radio"
+                  name={`question-${question.id}`}
+                  value={option}
+                  checked={selectedOptions[question.id] === option}
+                  onChange={() => handleOptionChange(question.id, option)}
+                />
+                <span className="option-text">{option}</span>
+              </label>
               ))}
             </div>
           </div>
