@@ -11,7 +11,7 @@ const questions = [
       "Reliability",
       "Process to process communication",
     ],
-    answer: "Process to process communication",
+    answer: "Reliability",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const questions = [
       "All the sites will stop working",
       "A part of sites will be working",
     ],
-    answer: "All the sites will stop working",
+    answer: "The remaining sites can continue operating",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const questions = [
       "Better system utilization",
       "Low system overhead",
     ],
-    answer: "High security",
+    answer: "Better resource sharing",
   },
   {
     id: 5,
@@ -116,13 +116,13 @@ const questions = [
       "Deadlock problem",
       "Power failure",
     ],
-    answer: "Concurrent",
+    answer: "Deadlock problem",
   },
   {
     id: 12,
     text: "Identify if timestamps of concurrent two events are the same, then the events are:",
     options: ["Concurrent", "Non-concurrent", "Monotonic", "Non-monotonic"],
-    answer: "Non-concurrent",
+    answer: "Concurrent",
   },
   {
     id: 13,
@@ -161,7 +161,7 @@ const questions = [
     id: 16,
     text: "Select the algorithms which are NOT used to handle mutual exclusion in distributed systems:",
     options: ["Centralized", "Token ring", "Distributed", "Non-centralized"],
-    answer: "Distributed",
+    answer: "Non-centralized",
   },
   {
     id: 17,
@@ -233,7 +233,7 @@ const questions = [
     id: 23,
     text: "Choose the option from below the following. In a web-based computing system, the computers used are normally _____?",
     options: ["Servers", "Tablets", "Personal computers", "Network computers"],
-    answer: "Servers",
+    answer: "Network computers",
   },
   {
     id: 24,
@@ -256,7 +256,7 @@ const questions = [
     id: 26,
     text: "Select the below option that microkernel has the responsibility for mapping each virtual _______",
     options: ["Module", "I/O devices", "Memory", "Page"],
-    answer: "Module",
+    answer: "Page",
   },
   {
     id: 27,
@@ -307,7 +307,7 @@ const questions = [
       "Two-tier architecture",
       "Peer-to-peer architecture",
     ],
-    answer: "Three-tier architecture",
+    answer: "Peer-to-peer architecture",
   },
   {
     id: 33,
@@ -324,7 +324,7 @@ const questions = [
     id: 47,
     text: "Evaluate which event is concurrent with the vector clock (2, 8, 4)?",
     options: ["(3,9,5)", "(3,8,4)", "(1,7,3)", "(4,8,2)"],
-    answer: "(3,8,4)",
+    answer: "(4,8,2)",
   },
   {
     id: 48,
@@ -335,7 +335,7 @@ const questions = [
       "Worst stability",
       "Better stability",
     ],
-    answer: "Complex",
+    answer: "Worst stability",
   },
   {
     id: 49,
@@ -346,13 +346,13 @@ const questions = [
       "Sequential order",
       "Specific order",
     ],
-    answer: "Specific order",
+    answer: "Same order",
   },
   {
     id: 50,
     text: "Select in which of the following consistency model all writes become perceptible to all processes",
     options: ["Strict", "Weak", "Casual", "Sequential"],
-    answer: "Sequential",
+    answer: "Strict",
   },
   {
     id: 51,
@@ -363,7 +363,7 @@ const questions = [
       "Need to be forwarded to any server",
       "Need to be forwarded to a fixed single server",
     ],
-    answer: "Need to be forwarded to any server",
+    answer: "Need to be forwarded to local server",
   },
   {
     id: 52,
@@ -385,7 +385,7 @@ const questions = [
       "Client interface",
       "Remote access",
     ],
-    answer: "Client interface",
+    answer: "Migration",
   },
   {
     id: 54,
@@ -443,7 +443,7 @@ const questions = [
     id: 61,
     text: "Select with a microkernel architecture, it is possible to handle hardware interrupts as",
     options: ["Applications", "Information", "Data", "Messages"],
-    answer: "Applications",
+    answer: "Messages",
   },
   {
     id: 62,
@@ -477,7 +477,7 @@ const questions = [
       "Identifier",
       "Process ID",
     ],
-    answer: "Process ID",
+    answer: "Host name and identifier",
   },
   {
     id: 66,
@@ -545,7 +545,7 @@ const questions = [
       "Both monolithic kernel and microkernel",
       "None of these",
     ],
-    answer: "Microkernel",
+    answer: "Monolithic kernel",
   },
   {
     id: 74,
@@ -556,7 +556,7 @@ const questions = [
       "Both monolithic kernel and microkernel",
       "None of these",
     ],
-    answer: "Monolithic kernel",
+    answer: "Microkernel",
   },
   {
     id: 75,
@@ -568,13 +568,13 @@ const questions = [
     id: 76,
     text: "Select the option below that the highest layer of the layered operating system is identified as",
     options: ["I/O buffer", "User programs", "CPU scheduling", "None of these"],
-    answer: "I/O buffer",
+    answer: "User programs",
   },
   {
     id: 77,
     text: "Select requested resources that are granted with deadlock detection",
     options: ["Resources", "Processes", "Programs", "Data"],
-    answer: "Resources",
+    answer: "Processes",
   },
   {
     id: 78,
@@ -642,13 +642,13 @@ const questions = [
       "Both server and every system in the network",
       "None of these",
     ],
-    answer: "Both server and every system in the network",
+    answer: "Server",
   },
   {
     id: 86,
     text: "Choose the option below that ____ is a software architecture used to build a distributed system from a network connected by a high-speed network.",
     options: ["DOS", "NOS", "Middleware", "Operating system"],
-    answer: "Middleware",
+    answer: "NOS",
   },
   {
     id: 87,
@@ -659,7 +659,7 @@ const questions = [
       "File’s host name needs to be changed",
       "File’s local name needs to be changed",
     ],
-    answer: "File name needs to be changed",
+    answer: "File name need not to be changed",
   },
 ];
 
