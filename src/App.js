@@ -661,6 +661,754 @@ const questions = [
     ],
     answer: "File name need not to be changed",
   },
+  {
+    id: 88,
+    text: "Select the best option from the following as a primary function of an operating system in a distributed system?",
+    options: [
+      "Providing a user interface",
+      "Managing system resources",
+      "Maintaining network security",
+      "None of the above",
+    ],
+    answer: "Managing system resources",
+  },
+  {
+    id: 89,
+    text: "Select which of the following is not a feature of distributed operating systems?",
+    options: [
+      "Transparency",
+      "Concurrency",
+      "Scalability",
+      "Single point of failure",
+    ],
+    answer: "Single point of failure",
+  },
+  {
+    id: 90,
+    text: "Select which of the following is a testing technique used to evaluate the performance of distributed operating systems?",
+    options: [
+      "Black-box testing",
+      "White-box testing",
+      "Gray-box testing",
+      "Load testing",
+    ],
+    answer: "Load testing",
+  },
+  {
+    id: 91,
+    text: "Select which of the following is an ethical consideration related to the use of distributed operating systems?",
+    options: [
+      "Resource allocation",
+      "System performance",
+      "User authentication",
+      "Privacy and security",
+    ],
+    answer: "Privacy and security",
+  },
+  {
+    id: 92,
+    text: "Choose the following is a communication protocol used in distributed systems?",
+    options: [
+      "FTP (File Transfer Protocol)",
+      "HTTP (Hypertext Transfer Protocol)",
+      "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+      "All of the above",
+    ],
+    answer: "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+  },
+  {
+    id: 93,
+    text: "Choose the following is a characteristic of distributed systems?",
+    options: [
+      "Centralized control",
+      "Single point of failure",
+      "Resource sharing",
+      "Limited scalability",
+    ],
+    answer: "Resource sharing",
+  },
+  {
+    id: 94,
+    text: "Identify the following is a design principle of distributed systems?",
+    options: [
+      "Tight coupling",
+      "Loose coupling",
+      "Centralized control",
+      "Monolithic architecture",
+    ],
+    answer: "Loose coupling",
+  },
+  {
+    id: 95,
+    text: "Identify the following is a testing technique used to evaluate the reliability of distributed systems?",
+    options: [
+      "Fault injection testing",
+      "White-box testing",
+      "Gray-box testing",
+      "Boundary value analysis",
+    ],
+    answer: "Fault injection testing",
+  },
+  {
+    id: 96,
+    text: "Select one of the best options from the following as an ethical consideration related to the use of distributed systems?",
+    options: [
+      "Performance optimization",
+      "Resource allocation",
+      "User authentication",
+      "Encryption standards",
+    ],
+    answer: "Encryption standards",
+  },
+  {
+    id: 97,
+    text: "Select the following is a communication protocol used in distributed systems for remote procedure calls?",
+    options: [
+      "SOAP (Simple Object Access Protocol)",
+      "REST (Representational State Transfer)",
+      "JSON-RPC (JavaScript Object Notation Remote Procedure Call)",
+      "All of the above",
+    ],
+    answer: "All of the above",
+  },
+  {
+    id: 98,
+    text: "Select the following is a common challenge faced by distributed operating systems?",
+    options: [
+      "Resource sharing",
+      "User authentication",
+      "System security",
+      "All of the above",
+    ],
+    answer: "All of the above",
+  },
+  {
+    id: 99,
+    text: "Choose the following is a technique used to ensure fault tolerance in distributed operating systems?",
+    options: [
+      "Redundancy",
+      "Load balancing",
+      "Resource allocation",
+      "None of the above",
+    ],
+    answer: "Redundancy",
+  },
+  {
+    id: 100,
+    text: "Choose the following is a testing technique used to evaluate the reliability of distributed operating systems?",
+    options: [
+      "Regression testing",
+      "Performance testing",
+      "Fault injection testing",
+      "All of the above",
+    ],
+    answer: "Fault injection testing",
+  },
+  {
+    id: 101,
+    text: "Choose the following is an ethical consideration related to the use of distributed operating systems?",
+    options: [
+      "Resource allocation",
+      "System performance",
+      "User authentication",
+      "Privacy and security",
+    ],
+    answer: "Privacy and security",
+  },
+  {
+    id: 102,
+    text: "Choose the following is a protocol used for remote procedure calls in distributed operating systems?",
+    options: ["TCP", "HTTP", "RPC", "DNS"],
+    answer: "RPC",
+  },
+  {
+    id: 103,
+    text: "Identify the major benefit of using distributed operating systems?",
+    options: [
+      "Improved system performance",
+      "Reduced system complexity",
+      "Lower cost of hardware",
+      "All of the above",
+    ],
+    answer: "All of the above",
+  },
+  {
+    id: 104,
+    text: "Identify the following is an example of middleware used in distributed operating systems?",
+    options: [
+      "CORBA (Common Object Request Broker Architecture)",
+      "HTML (Hypertext Markup Language)",
+      "SQL (Structured Query Language)",
+      "None of the above",
+    ],
+    answer: "CORBA (Common Object Request Broker Architecture)",
+  },
+  {
+    id: 105,
+    text: "Select the following is a technique used to test the reliability of distributed operating systems?",
+    options: [
+      "Fault injection",
+      "Regression testing",
+      "Unit testing",
+      "Fault tolerance",
+    ],
+    answer: "Fault injection",
+  },
+  {
+    id: 106,
+    text: "Choose the following is an ethical consideration related to the use of distributed operating systems?",
+    options: [
+      "Resource allocation",
+      "System performance",
+      "User authentication",
+      "Privacy and security",
+    ],
+    answer: "Privacy and security",
+  },
+  {
+    id: 107,
+    text: "Identify the following is a protocol used for communication between distributed operating systems?",
+    options: ["TCP/IP", "HTTP", "DNS", "None of the above"],
+    answer: "TCP/IP",
+  },
+  {
+    id: 108,
+    text: "Identify the following is a challenge faced by distributed operating systems?",
+    options: [
+      "Reduced resource sharing",
+      "Increased security",
+      "Scalability",
+      "None of the above",
+    ],
+    answer: "None of the above",
+  },
+  {
+    id: 109,
+    text: "Identify the following is an example of a distributed operating system?",
+    options: ["Windows 10", "Linux", "Android", "None of the above"],
+    answer: "Linux",
+  },
+  {
+    id: 110,
+    text: "Choose the following is a testing technique used to evaluate the performance of distributed operating systems?",
+    options: [
+      "Unit testing",
+      "System testing",
+      "Load testing",
+      "None of the above",
+    ],
+    answer: "Load testing",
+  },
+  {
+    id: 111,
+    text: "Identify the following is an ethical consideration related to the use of distributed operating systems?",
+    options: [
+      "System reliability",
+      "User satisfaction",
+      "Privacy and security",
+      "All of the above",
+    ],
+    answer: "Privacy and security",
+  },
+  {
+    id: 112,
+    text: "Choose the following is a protocol used for messaging in distributed operating systems?",
+    options: [
+      "TCP/IP",
+      "HTTP",
+      "SMTP (Simple Mail Transfer Protocol)",
+      "None of the above",
+    ],
+    answer: "SMTP (Simple Mail Transfer Protocol)",
+  },
+  {
+    id: 113,
+    text: "Select the best definition of deadlock:",
+    options: [
+      "A situation where a process or multiple processes are stuck waiting for each other to release resources",
+      "A situation where a process or multiple processes are executing in parallel",
+      "A situation where a process or multiple processes have completed their execution and released resources",
+      "A situation where a process or multiple processes have exceeded their memory limits",
+    ],
+    answer:
+      "A situation where a process or multiple processes are stuck waiting for each other to release resources",
+  },
+  {
+    id: 114,
+    text: "Choose one of the primary causes of deadlock in real-life scenarios:",
+    options: [
+      "Inefficient use of resources",
+      "Lack of proper communication between processes",
+      "High CPU utilization",
+      "Insufficient memory allocation",
+    ],
+    answer: "Inefficient use of resources",
+  },
+  {
+    id: 115,
+    text: "Identify a common method for handling deadlock in real-life scenarios:",
+    options: [
+      "Restarting the system",
+      "Terminating one or more processes",
+      "Increasing the available resources",
+      "All of the above",
+    ],
+    answer: "Terminating one or more processes",
+  },
+  {
+    id: 116,
+    text: "Identify an example of a real-life scenario where deadlock handling is crucial:",
+    options: [
+      "Air traffic control",
+      "Online shopping",
+      "Social media",
+      "Streaming music",
+    ],
+    answer: "Air traffic control",
+  },
+  {
+    id: 117,
+    text: "Choose the consequence of deadlock in a system:",
+    options: [
+      "Processes are halted indefinitely",
+      "Processes continue to execute but with reduced efficiency",
+      "Processes are terminated automatically",
+      "Processes release resources and continue to execute",
+    ],
+    answer: "Processes are halted indefinitely",
+  },
+  {
+    id: 118,
+    text: "Identify the primary cause of deadlock in real-life scenarios:",
+    options: [
+      "Inefficient use of resources",
+      "Lack of proper communication between processes",
+      "High CPU utilization",
+      "Insufficient memory allocation",
+    ],
+    answer: "Inefficient use of resources",
+  },
+  {
+    id: 119,
+    text: "Choose the best method for handling deadlock in a real-life scenario:",
+    options: [
+      "Restarting the system",
+      "Terminating one or more processes",
+      "Increasing the available resources",
+      "All of the above",
+    ],
+    answer: "Terminating one or more processes",
+  },
+  {
+    id: 120,
+    text: "Select the correct definition of deadlock:",
+    options: [
+      "A situation where a process or multiple processes are stuck waiting for each other to release resources",
+      "A situation where a process or multiple processes are executing in parallel",
+      "A situation where a process or multiple processes have completed their execution and released resources",
+      "A situation where a process or multiple processes have exceeded their memory limits",
+    ],
+    answer:
+      "A situation where a process or multiple processes are stuck waiting for each other to release resources",
+  },
+  {
+    id: 121,
+    text: "Choose the primary cause of deadlock in real-life scenarios:",
+    options: [
+      "Inefficient use of resources",
+      "Lack of proper communication between processes",
+      "High CPU utilization",
+      "Insufficient memory allocation",
+    ],
+    answer: "Inefficient use of resources",
+  },
+  {
+    id: 122,
+    text: "Identify a common method for handling deadlock in real-life scenarios:",
+    options: [
+      "Restarting the system",
+      "Terminating one or more processes",
+      "Increasing the available resources",
+      "All of the above",
+    ],
+    answer: "Terminating one or more processes",
+  },
+  {
+    id: 123,
+    text: "Identify an example of a real-life scenario where deadlock handling is crucial:",
+    options: [
+      "Air traffic control",
+      "Online shopping",
+      "Social media",
+      "Streaming music",
+    ],
+    answer: "Air traffic control",
+  },
+  {
+    id: 124,
+    text: "Choose what happens when deadlock occurs in a system:",
+    options: [
+      "Processes are halted indefinitely",
+      "Processes continue to execute but with reduced efficiency",
+      "Processes are terminated automatically",
+      "Processes release resources and continue to execute",
+    ],
+    answer: "Processes are halted indefinitely",
+  },
+  {
+    id: 125,
+    text: "Select the best definition of data security:",
+    options: [
+      "The protection of computer systems from theft or damage to their hardware, software, or electronic data",
+      "The practice of protecting sensitive information from unauthorized access, use, disclosure, or destruction",
+      "The process of ensuring that data is complete, accurate, and consistent",
+      "The process of identifying and correcting errors in data",
+    ],
+    answer:
+      "The protection of computer systems from theft or damage to their hardware, software, or electronic data",
+  },
+  {
+    id: 126,
+    text: "Understand the importance of data security in real-life scenarios:",
+    options: [
+      "It helps prevent financial losses and damage to reputation",
+      "It ensures that data is accurate and consistent",
+      "It helps identify and correct errors in data",
+      "It enhances the performance of computer systems",
+    ],
+    answer: "It helps prevent financial losses and damage to reputation",
+  },
+  {
+    id: 127,
+    text: "Classify encryption as a method for enhancing data security:",
+    options: [
+      "Physical security method",
+      "Access control method",
+      "Authentication method",
+      "Cryptographic method",
+    ],
+    answer: "Cryptographic method",
+  },
+  {
+    id: 128,
+    text: "Indicate which of the following is an example of encryption:",
+    options: [
+      "Installing antivirus software on a computer",
+      "Restricting access to a database",
+      "Encoding a message to make it unreadable without a key",
+      "Backing up data to an external hard drive",
+    ],
+    answer: "Encoding a message to make it unreadable without a key",
+  },
+  {
+    id: 129,
+    text: "Choose the best method for protecting sensitive data from unauthorized access:",
+    options: [
+      "Encryption",
+      "Backup",
+      "Antivirus software",
+      "Physical security measures",
+    ],
+    answer: "Encryption",
+  },
+  {
+    id: 130,
+    text: "Identify an example of a real-life scenario where data security is critical:",
+    options: [
+      "Online shopping",
+      "Social media",
+      "Streaming music",
+      "Healthcare records",
+    ],
+    answer: "Healthcare records",
+  },
+  {
+    id: 131,
+    text: "Select the following is an example of IPC mechanism:",
+    options: ["Message passing", "Mutex", "Semaphore", "All of the above"],
+    answer: "All of the above",
+  },
+  {
+    id: 132,
+    text: "Select the IPC mechanism that allows one process to send a message to another process and wait for a reply:",
+    options: ["Message passing", "Mutex", "Semaphore", "Pipe"],
+    answer: "Message passing",
+  },
+  {
+    id: 133,
+    text: "Select the correct statement regarding inter-process communication (IPC):",
+    options: [
+      "IPC is used to communicate between different threads in a program",
+      "IPC is a method to transfer data between two different processes",
+      "IPC can be used to communicate between two different programs running on the same system",
+      "IPC is only used in distributed systems",
+    ],
+    answer:
+      "IPC is a method to transfer data between two different processes",
+  },
+  {
+    id: 134,
+    text: "Understand the classification of inter-process communication (IPC) mechanisms based on the synchronization:",
+    options: [
+      "Synchronous and asynchronous IPC",
+      "Message passing and mutex",
+      "Semaphore and pipe",
+      "Binary search and linear regression",
+    ],
+    answer: "Synchronous and asynchronous IPC",
+  },
+  {
+    id: 135,
+    text: "Choose the IPC mechanism that allows multiple processes to send and receive messages from a central location:",
+    options: ["Pipes", "Message queues", "Semaphores", "Shared memory"],
+    answer: "Message queues",
+  },
+  {
+    id: 136,
+    text: "Identify the IPC mechanism that uses a fixed-sized block of memory to facilitate data exchange between processes:",
+    options: ["Pipes", "Message queue", "Shared memory", "Semaphore"],
+    answer: "Shared memory",
+  },
+  {
+    id: 137,
+    text: "Select the primary purpose of inter-process communication (IPC):",
+    options: [
+      "TO ALLOW COMMUNICATION BETWEEN TWO DIFFERENT PROCESSORS",
+      "TO ALLOW COMMUNICATION BETWEEN TWO DIFFERENT THREADS",
+      "TO ALLOW COMMUNICATION BETWEEN TWO DIFFERENT PROCESSES",
+      "TO ALLOW COMMUNICATION BETWEEN TWO DIFFERENT APPLICATIONS",
+    ],
+    answer: "TO ALLOW COMMUNICATION BETWEEN TWO DIFFERENT PROCESSES",
+  },
+  {
+    id: 138,
+    text: "Identify Which of the following algorithms is commonly used in message passing for IPC ?",
+    options: ["ROUND-ROBIN SCHEDULING", "FIRST-COME, FIRST-SERVED SCHEDULING", "PRIORITY SCHEDULING", "SHORTEST JOB FIRST SCHEDULING"],
+    answer: "PRIORITY SCHEDULING",
+  },
+  {
+    id: 139,
+    text: "Select the following is not a characteristic of a distributed file system",
+    options: [
+      "Scalability",
+      "Fault Tolerance",
+      "Centralized Control",
+      "Data Consistency",
+    ],
+    answer: "Centralized Control",
+  },
+  {
+    id: 140,
+    text: "Apply which distributed file system is design for large scale data storage and processing, and is widely used in big data application",
+    options: [
+      "NFS",
+      "HDFS",
+      "CIFS",
+      "AFS",
+    ],
+    answer: "HDFS",
+  },
+  {
+    id: 141,
+    text: "Analyze the main disadvantage of a distributed file system compared to a traditional centralized file system:",
+    options: [
+      "Increased complexity",
+      "Lower performance",
+      "Higher storage costs",
+      "Less fault tolerance",
+    ],
+    answer: "Increased complexity",
+  },
+  {
+    id: 142,
+    text: "Distinguish how a distributed file system differs from a distributed database system:",
+    options: [
+      "Distributed file systems store files, while distributed database systems store data in tables.",
+      "Distributed file systems are optimized for high performance, while distributed database systems are optimized for data consistency.",
+      "Distributed file systems use a file-level access protocol, while distributed database systems use a record-level access protocol.",
+      "Distributed file systems can be used without a network, while distributed database systems require a network.",
+    ],
+    answer:
+      "Distributed file systems store files, while distributed database systems store data in tables.",
+  },
+  {
+    id: 143,
+    text: "Choose the following is not a requirement for a protection regime in a distributed system:",
+    options: [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "None of the above",
+    ],
+    answer: "None of the above",
+  },
+  {
+    id: 144,
+    text: "Identify which security mechanism provides a way to ensure the integrity of data transmitted over a network:",
+    options: [
+      "Digital signature",
+      "Encryption",
+      "Authentication",
+      "Authorization",
+    ],
+    answer: "Encryption",
+  },
+  {
+    id: 145,
+    text: "Select the following is not a possible threat to security in a distributed system:",
+    options: [
+      "Eavesdropping",
+      "Denial of service",
+      "Data loss",
+      "All of the above are possible threats",
+    ],
+    answer: "All of the above are possible threats",
+  },
+  {
+    id: 146,
+    text: "Choose one of the best options from the following is not a commonly used security protocol in a distributed system:",
+    options: ["SSL/TLS", "Kerberos", "OAuth", "SMTP"],
+    answer: "SMTP",
+  },
+  {
+    id: 147,
+    text: "Select the process of verifying the identity of a user or entity in a distributed system called:",
+    options: ["Authentication", "Authorization", "Encryption", "Decryption"],
+    answer: "Authentication",
+  },
+  {
+    id: 148,
+    text: "Identify the following is not an access control mechanism in a distributed system:",
+    options: [
+      "Mandatory access control (MAC)",
+      "Role-based access control (RBAC)",
+      "Discretionary access control (DAC)",
+      "All of the above are access control mechanisms",
+    ],
+    answer: "All of the above are access control mechanisms",
+  },
+  {
+    id: 149,
+    text: "Choose the following is not a technique for ensuring data confidentiality in a distributed system:",
+    options: ["Hashing", "Encryption", "Obfuscation", "Steganography"],
+    answer: "Hashing",
+  },
+  {
+    id: 150,
+    text: "Indicate the following is not a requirement for a secure distributed file system:",
+    options: [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Data compression",
+    ],
+    answer: "Data compression",
+  },
+  {
+    id: 151,
+    text: "Indicate the process of determining what actions a user or entity is allowed to perform in a distributed system called:",
+    options: ["Authentication", "Authorization", "Encryption", "Decryption"],
+    answer: "Authorization",
+  },
+  {
+    id: 152,
+    text: "Choose the following is not a method for ensuring fault tolerance in a distributed system:",
+    options: [
+      "Replication",
+      "Check pointing",
+      "Redundancy",
+      "Resource allocation",
+    ],
+    answer: "Resource allocation",
+  },
+  {
+    id: 153,
+    text: "Indicate the following is a classification criterion for a distributed mutual exclusion algorithm:",
+    options: [
+      "Time-based",
+      "Event-based",
+      "Resource-based",
+      "All of the above",
+    ],
+    answer: "All of the above",
+  },
+  {
+    id: 154,
+    text: "Classify the distributed mutual exclusion algorithm where the request messages are timestamped:",
+    options: [
+      "Time-based",
+      "Resource-based",
+      "Event-based",
+      "None of the above",
+    ],
+    answer: "Time-based",
+  },
+  {
+    id: 155,
+    text: "Select which algorithm is an example of a time-based distributed mutual exclusion algorithm:",
+    options: [
+      "Suzuki-Kasami algorithm",
+      "Ricart-Agrawala algorithm",
+      "Maekawa algorithm",
+      "None of the above",
+    ],
+    answer: "Maekawa algorithm",
+  },
+  {
+    id: 156,
+    text: "Identify the following is an event-based distributed mutual exclusion algorithm:",
+    options: [
+      "Centralized algorithm",
+      "Token-based algorithm",
+      "Tree-based algorithm",
+      "None of the above",
+    ],
+    answer: "Token-based algorithm",
+  },
+  {
+    id: 157,
+    text: "Classify the distributed mutual exclusion algorithm where the resources are classified into groups:",
+    options: [
+      "Suzuki-Kasami algorithm",
+      "Ricart-Agrawala algorithm",
+      "Chandy-Misra algorithm",
+      "None of the above",
+    ],
+    answer: "Ricart-Agrawala algorithm",
+  },
+  {
+    id: 158,
+    text: "Classify the distributed mutual exclusion algorithm where the request messages are sent to all other processes in the system:",
+    options: [
+      "Time-based",
+      "Event-based",
+      "Broadcast-based",
+      "None of the above",
+    ],
+    answer: "Broadcast-based",
+  },
+  {
+    id: 159,
+    text: "Classify the distributed mutual exclusion algorithm that is based on the concept of logical clocks:",
+    options: [
+      "Time-based",
+      "Event-based",
+      "Logical clock-based",
+      "None of the above",
+    ],
+    answer: "Logical clock-based",
+  },
+  {
+    id: 160,
+    text: "Choose the below option from the following. The machine that places the request to access the data is generally called:",
+    options: [
+      "Server machine",
+      "Client machine",
+      "Request machine",
+      "Response machine",
+    ],
+    answer: "Client machine",
+  },
 ];
 
 const App = () => {
@@ -709,18 +1457,24 @@ const App = () => {
             <div className="options">
               {question.options.map((option) => (
                 <label
-                key={option}
-                className={`option ${submitted && selectedOptions[question.id] === option && question.answer !== option ? 'wrong-answer' : ''}`}
-              >
-                <input
-                  type="radio"
-                  name={`question-${question.id}`}
-                  value={option}
-                  checked={selectedOptions[question.id] === option}
-                  onChange={() => handleOptionChange(question.id, option)}
-                />
-                <span className="option-text">{option}</span>
-              </label>
+                  key={option}
+                  className={`option ${
+                    submitted &&
+                    selectedOptions[question.id] === option &&
+                    question.answer !== option
+                      ? "wrong-answer"
+                      : ""
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name={`question-${question.id}`}
+                    value={option}
+                    checked={selectedOptions[question.id] === option}
+                    onChange={() => handleOptionChange(question.id, option)}
+                  />
+                  <span className="option-text">{option}</span>
+                </label>
               ))}
             </div>
           </div>
