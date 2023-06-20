@@ -64,9 +64,26 @@ body {
   animation: popupFadeIn 0.5s ease-out forwards;
 }
 
+.show-answers-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .wrong-answer .option-text {
   color: red;
 }
+
+.correct-answer .option-text {
+  color: rgb(42, 159, 59);
+  font-weight: bolder;
+}
+
+/* Additional styles for wrong answer */
 
 @keyframes popupFadeIn {
   0% {
