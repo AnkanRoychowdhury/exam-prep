@@ -354,7 +354,7 @@ const questions = [
       "D. It always provides the lowest possible error when class distributions are estimated",
     ],
     answer:
-      "C. It may not always provide the lowest possible error when class distributions are known",
+      "B. It always provides the lowest possible error when class distributions are known",
   },
   {
     id: 37,
@@ -968,7 +968,7 @@ const questions = [
       "C. only (2)",
       "D. all of them",
     ],
-    answer: "C. only (2)",
+    answer: "D. all of them",
   },
   {
     id: 98,
