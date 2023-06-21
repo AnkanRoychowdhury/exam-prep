@@ -980,7 +980,7 @@ const questions = [
       "D. It is possible to convert the multiclass classification problem into a set of binary classification problems",
     ],
     answer:
-      "B. The case when the labels are just +1 or -1 is called two-class classification problems\nD. It is possible to convert the multiclass classification problem into a set of binary classification problems",
+      "B. The case when the labels are just +1 or -1 is called two-class classification problems"
   },
   {
     id: 99,
